@@ -16,5 +16,20 @@ namespace fukusyu0510
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Enabled = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.ForeColor = SystemColors.GradientInactiveCaption;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button3.BackColor = SystemColors.Desktop;
+        }
     }
 }
